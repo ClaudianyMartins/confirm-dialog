@@ -17,8 +17,8 @@ export default class Home extends Component {
 
   carregarConfirmDialog = () => {
     confirmAlert({
-      title: "Cervejaria lalalla",
-      message: "Você é maior de idade?",
+      title: "titulo da pergunta",
+      message: "pergunta com a interrogaçao?",
       buttons: [
         {
           label: "Sim",
