@@ -17,12 +17,12 @@ export default class Home extends Component {
 
   carregarConfirmDialog = () => {
     confirmAlert({
-      title: "titulo da pergunta",
-      message: "pergunta com a interrogaçao?",
+      title: "Cervejaria da Cintia",
+      message: "Você é menor de idade?",
       buttons: [
         {
           label: "Sim",
-          onClick: () => this.direcionarTela()
+          onClick: () => this.direcionarTelaMenorIdade()
         },
         {
           label: "Não",
